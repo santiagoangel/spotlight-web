@@ -6,7 +6,7 @@ angular.module('myApp', [])
   
     // Function to get the data
     $scope.getData = function(){
-      $http.get('http://rest-service.guides.spring.io/greeting').
+      $http.get('https://spotlight-backend-java-spotlight.b9ad.pro-us-east-1.openshiftapps.com/greeting').
       then(function(response) {
           $scope.greeting = response.data;
       });
