@@ -1,4 +1,4 @@
-# spotlight-web for CI/CD demo
+# Continuous Integration and Continuous Delivery Demo
 
 ![Preview](img/spotlight-web.png)
 
