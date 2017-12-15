@@ -1,4 +1,4 @@
-# Continuous Integration and Continuous Delivery Demo
+# Web for Continuous Integration and Continuous Delivery Demo
 
 ![Preview](img/spotlight-web.png)
 
