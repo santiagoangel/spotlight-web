@@ -6,7 +6,7 @@ This is a proposal that leverages the use of Ansible as an [orchestrator](https:
 
 ## Flow
 
-The flow begins when a developer makes a change in the code and publishes it to the source code repository ([gitlab](https://about.gitlab.com/features/gitlab-ci-cd/) [github](https://developer.github.com/v3/guides/building-a-ci-server/) [bitbucket](https://bitbucket.org/AnsibleByRedHat/ansible-tower-pipelines)) hence a runner or webhook/ bitbucket pipeline identify the type of project, change, branch and different variables to call a [workflow](https://www.ansible.com/tower?wvideo=2uoh2d92ew) in ansible that includes the different steps (jobs) to complete the release.
+The flow begins when a developer makes a change in the code ![codeenvy-pull-commit-push](img/codeenvy-pull-commit-push.png) and publishes it to the source code repository ([gitlab](https://about.gitlab.com/features/gitlab-ci-cd/) [github](https://developer.github.com/v3/guides/building-a-ci-server/) [bitbucket](https://bitbucket.org/AnsibleByRedHat/ansible-tower-pipelines)) hence a runner or webhook/ bitbucket pipeline identify the type of project, change, branch and different variables to call a [workflow](https://www.ansible.com/tower?wvideo=2uoh2d92ew) in ansible that includes the different steps (jobs) to complete the release.
 
 ![cicdflow](img/cicd.png)
 
@@ -16,14 +16,15 @@ The flow begins when a developer makes a change in the code and publishes it to 
 Depending on the type of application, a workflow is executed and different jobs from [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) are launched:
 
 * **unit** Unit tests.
-* **sonarqube** Coverage tests and code analysis.
+* **sonarqube** Coverage tests and code analysis. ![sonarqube](img/sonarqube.png)
+
 * **taurus** Coordinator of execution of functional and load tests.
 * **appium** Automation for Mobile Applications.
-* **selenium** Functional tests in web.
-* **jmeter** Load tests.
-* **jenkins** Construction and publication of artifacts.
+* **selenium** Functional tests in web. ![selenium](img/selenium.png)
+* **jmeter** Load tests. ![sonarqube](img/sonarqube.png)
+* **jenkins** Construction and publication of artifacts. ![jenkins](img/jenkins.png)
 * **testfairy** Distribution of *Mobile* Applications.
-* **openshift** Publish web applications and services to PaaS.
+* **openshift** Publish web applications and services to PaaS. ![openshift-deployment](img/openshift-deployment.png)
 
 ## Future
 
