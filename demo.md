@@ -21,7 +21,7 @@ Depending on the type of application, a workflow is executed and different jobs 
 * **taurus** Coordinator of execution of functional and load tests.
 * **appium** Automation for Mobile Applications.
 * **selenium** Functional tests in web. ![selenium](img/selenium.png)
-* **jmeter** Load tests. ![sonarqube](img/sonarqube.png)
+* **jmeter** Load tests. ![jmeter](img/jmeter.png)
 * **jenkins** Construction and publication of artifacts. ![jenkins](img/jenkins.png)
 * **testfairy** Distribution of *Mobile* Applications.
 * **openshift** Publish web applications and services to PaaS. ![openshift-deployment](img/openshift-deployment.png)
