@@ -2,9 +2,13 @@
 
 This is a proposal that leverages the use of Ansible as an [orchestrator](https://www.ansible.com/use-cases/orchestration) of the [integration](https://www.ansible.com/overview/devops) and [continuous delivery](https://www.ansible.com/use-cases/continuous-delivery) processes.
 
+![ansible-dashboard](img/ansible-dashboard.png)
+
 ## Flow
 
 The flow begins when a developer makes a change in the code and publishes it to the source code repository ([gitlab](https://about.gitlab.com/features/gitlab-ci-cd/) [github](https://developer.github.com/v3/guides/building-a-ci-server/) [bitbucket](https://bitbucket.org/AnsibleByRedHat/ansible-tower-pipelines)) hence a runner or webhook/ bitbucket pipeline identify the type of project, change, branch and different variables to call a [workflow](https://www.ansible.com/tower?wvideo=2uoh2d92ew) in ansible that includes the different steps (jobs) to complete the release.
+
+![cicdflow](img/cicd.png)
 
 
 ## Steps (jobs)
