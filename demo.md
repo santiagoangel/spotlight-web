@@ -6,7 +6,7 @@ This is a proposal that leverages the use of Ansible as an [orchestrator](https:
 
 ## Video
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![http://www.youtube.com/watch?v=WVhGt7qcoH4](http://img.youtube.com/vi/WVhGt7qcoH4/0.jpg)](http://www.youtube.com/watch?v=WVhGt7qcoH4)
 
 ## Flow
 
