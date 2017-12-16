@@ -4,11 +4,16 @@ This is a proposal that leverages the use of Ansible as an [orchestrator](https:
 
 ![ansible-dashboard](img/ansible-dashboard.png "video")
 
+## Video
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
 ## Flow
 
 The flow begins when a developer makes a change in the code ![codeenvy-pull-commit-push](img/codeenvy-pull-commit-push.png) and publishes it to the source code repository ([gitlab](https://about.gitlab.com/features/gitlab-ci-cd/) [github](https://developer.github.com/v3/guides/building-a-ci-server/) [bitbucket](https://bitbucket.org/AnsibleByRedHat/ansible-tower-pipelines)) hence a runner or webhook/ bitbucket pipeline identify the type of project, change, branch and different variables to call a [workflow](https://www.ansible.com/tower?wvideo=2uoh2d92ew) in ansible that includes the different steps (jobs) to complete the release.
 
 ![cicdflow](img/cicd.png "CI/CD Flow Diagram")
+### CI/CD Flow Diagram
 
 
 ## Steps (jobs)
