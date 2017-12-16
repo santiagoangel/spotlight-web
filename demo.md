@@ -34,8 +34,6 @@ Depending on the type of application, a workflow is executed and different jobs 
 
 ## Published application
 
-![preview web](img/web-release.png)
-
 http://spotlight-web-nodejs-spotlight.b9ad.pro-us-east-1.openshiftapps.com/
 
 [![http://spotlight-web-nodejs-spotlight.b9ad.pro-us-east-1.openshiftapps.com/](img/web-release.png)](http://spotlight-web-nodejs-spotlight.b9ad.pro-us-east-1.openshiftapps.com/)
