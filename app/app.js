@@ -6,7 +6,7 @@ angular.module('myApp', [])
   
     // Function to get the data
     $scope.getData = function(){
-      $http.get('https://spotlight-backend-java-spotlight.b9ad.pro-us-east-1.openshiftapps.com/greeting').
+      $http.get('http://spotlight-backend-spotlight.1d35.starter-us-east-1.openshiftapps.com/greeting').
       then(function(response) {
           $scope.greeting = response.data;
       });
